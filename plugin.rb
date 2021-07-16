@@ -2,9 +2,9 @@
 
 # name: discourse-news
 # about: Adds a news stream to your Discourse instance
-# version: 0.3
-# authors: Angus McLeod
-# url: https://github.com/paviliondev/discourse-news
+# version: 0.31
+# authors: Angus McLeod, Neo
+# url: https://github.com/unixneo/discourse-news
 
 register_asset 'stylesheets/common/discourse-news.scss'
 register_asset 'stylesheets/mobile/discourse-news.scss', :mobile
