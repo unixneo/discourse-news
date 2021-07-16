@@ -181,3 +181,11 @@ body.news #main-outlet {
     }
   }
 }
+
+#list-area > div.sidebar{
+  display:none;
+}
+
+#list-area > div{
+  overflow:auto;
+}
