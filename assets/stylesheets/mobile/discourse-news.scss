@@ -38,3 +38,29 @@
     }
   }
 }
+
+a.header-nav-link {
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 0;
+
+  &.active, &:hover {
+    font-weight: 700;
+  }
+
+  span {
+    vertical-align: middle;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: $primary;
+  }
+
+  img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+}
