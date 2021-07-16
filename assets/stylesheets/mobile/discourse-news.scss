@@ -41,7 +41,7 @@
 
 a.header-nav-link {
   margin-right: 10px;
-  display: inline-block;
+  display: none;
   font-size: 0;
 
   &.active, &:hover {
@@ -50,7 +50,7 @@ a.header-nav-link {
 
   span {
     vertical-align: middle;
-    display: inline-block;
+    display:  none;
     width: 40px;
     text-align: center;
     font-size: 16px;
@@ -59,7 +59,7 @@ a.header-nav-link {
 
   img {
     vertical-align: middle;
-    display: inline-block;
+    display:  none;
     width: 30px;
     height: 30px;
   }
