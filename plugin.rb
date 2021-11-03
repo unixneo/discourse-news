@@ -2,7 +2,7 @@
 
 # name: discourse-news
 # about: Adds a news stream to your Discourse instance
-# version: 0.31
+# version: 0.32
 # authors: Angus McLeod, Neo
 # url: https://github.com/unixneo/discourse-news
 
@@ -73,7 +73,7 @@ after_initialize do
   
   add_to_class(:topic, :news_body) do
     @news_body ||= begin
-      if news_item
+      if news_item  && !first_post.nil?
         News::Item.generate_body(first_post.cooked, image_url)
       else
         nil
